@@ -1,48 +1,55 @@
-ChatTDP
-ChatTDP es una aplicación Flutter diseñada para ayudar a árbitros de la Tercera División Profesional a generar informes de incidencias de partido de forma rápida y estructurada. Utiliza la API de OpenAI para crear un asistente conversacional que recepciona datos de juego y devuelve bloques de texto listos para incluirse en el informe arbitral.
+# ChatTDP
 
-📋 Características
-Asistente conversacional impulsado por OpenAI GPT: genera descripciones de incidencias (faltas, tarjetas, goles, cambios, etc.).
+**ChatTDP** es una aplicación Flutter diseñada para ayudar a árbitros de la Tercera División Profesional a generar informes de incidencias de partido de forma rápida y estructurada. Utiliza la API de OpenAI para crear un asistente conversacional que recepciona datos de juego y devuelve bloques de texto listos para incluirse en el informe arbitral.
 
-Interfaz limpia y sencilla: formulario de entrada + chat.
+---
 
-Arquitectura MVVM: separación de lógica (viewmodel), servicios de API y UI.
+## 📋 Características
 
-Configuración flexible: gestiona tu propia API Key de OpenAI.
+- **Asistente conversacional** impulsado por OpenAI GPT: genera descripciones de incidencias (faltas, tarjetas, goles, cambios, etc.).  
+- **Interfaz limpia y sencilla**: formulario de entrada + chat.  
+- **Arquitectura MVVM**: separación de lógica (viewmodel), servicios de API y UI.  
+- **Configuración flexible**: gestiona tu propia API Key de OpenAI.  
+- **Multi-plataforma**: Android, iOS, Web y Desktop.  
 
-Multi-plataforma: Android, iOS, Web y Desktop.
+---
 
-🚀 Requisitos
-Flutter 3.x o superior
+## 🚀 Requisitos
 
-Dart 2.17 o superior
+- **Flutter** 3.x o superior  
+- **Dart** 2.17 o superior  
+- **Cuenta y API Key** de OpenAI  
+- **Conexión a internet**  
 
-Cuenta y API Key de OpenAI
+---
 
-Conexión a internet
+## 🔧 Instalación
 
-🔧 Instalación
-Clona el repositorio
-git clone https://github.com/rickyma18/ChatTDP.git
-cd ChatTDP
-
+1. **Clona el repositorio**  
+   ```bash
+   git clone https://github.com/rickyma18/ChatTDP.git
+   cd ChatTDP
 Instala dependencias
-flutter pub get
 
+bash
+flutter pub get
 Configura tu API Key
 
-Renombra lib/services/.env.example a lib/services/.env
+Renombra el fichero de ejemplo:
 
-Abre lib/services/.env y añade tu clave:
+mv lib/services/.env.example lib/services/.env
+Abre lib/services/.env y añade:
+
+ini
 OPENAI_API_KEY=tu_api_key_aquí
-
 Genera código Firebase (opcional)
-flutterfire configure
 
+flutterfire configure
 ▶️ Uso
 flutter run
+Ingresa un texto breve en la caja de chat, por ejemplo:
 
-Ingresa un texto breve en la caja de chat (por ejemplo: “tarjeta amarilla al 23’ por derribo, Penales: Leones 4-5 Chapala”)
+“tarjeta amarilla al 23’ por derribo, Penales: Leones 4-5 Chapala”
 
 Pulsa Enviar.
 
@@ -50,17 +57,16 @@ Copia la descripción generada por OpenAI y pégala en tu informe arbitral.
 
 🗂️ Estructura de carpetas
 lib/
-├── model/ # Entidades y modelos de datos
-├── services/ # Comunicación con OpenAI y API clients
-│ └── openai_service.dart
-├── view/ # Widgets y pantallas
-│ └── chat_page.dart
-├── viewmodel/ # Lógica de estado (ChangeNotifier / Provider / Riverpod)
-│ └── chat_viewmodel.dart
+├── model/                # Entidades y modelos de datos
+├── services/             # Comunicación con OpenAI y API clients
+│   └── openai_service.dart
+├── view/                 # Widgets y pantallas
+│   └── chat_page.dart
+├── viewmodel/            # Lógica de estado (ChangeNotifier / Provider / Riverpod)
+│   └── chat_viewmodel.dart
 ├── firebase_options.dart # Configuración Firebase (opcional)
-├── main.dart # Punto de entrada
-└── theme.dart # Temas y paleta de colores
-
+├── main.dart             # Punto de entrada
+└── theme.dart            # Temas y paleta de colores
 🤝 Contribuciones
 ¡Bienvenidas! Si encuentras errores o quieres añadir mejoras:
 
