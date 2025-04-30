@@ -88,10 +88,7 @@ Envía tu PR describiendo lo que aportas.
 Este proyecto es de código abierto bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 
-![Imagen de WhatsApp 2025-04-30 a las 14 21 43_364bc36b](https://github.com/user-attachments/assets/6a8b9d26-ec98-493c-a9fb-487989fefec5)
-
-![Imagen de WhatsApp 2025-04-30 a las 14 21 44_fc7b0064](https://github.com/user-attachments/assets/9f2843ff-f0b0-4aef-8d46-3c617481e77e)
-
-
-![Imagen de WhatsApp 2025-04-30 a las 14 21 44_c75616cd](https://github.com/user-attachments/assets/dc407f9b-e625-4f75-b18d-285a5b66b4c0)
+<img src="https://github.com/user-attachments/assets/6a8b9d26-ec98-493c-a9fb-487989fefec5" alt="Imagen 1" width="300" />  
+<img src="https://github.com/user-attachments/assets/9f2843ff-f0b0-4aef-8d46-3c617481e77e" alt="Imagen 2" width="300" />  
+<img src="https://github.com/user-attachments/assets/dc407f9b-e625-4f75-b18d-285a5b66b4c0" alt="Imagen 3" width="300" />
 
