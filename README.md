@@ -86,3 +86,7 @@ Envía tu PR describiendo lo que aportas.
 
 📄 Licencia
 Este proyecto es de código abierto bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+
+![Imagen de WhatsApp 2025-04-30 a las 14 21 43_364bc36b](https://github.com/user-attachments/assets/6a8b9d26-ec98-493c-a9fb-487989fefec5)
+
