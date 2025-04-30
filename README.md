@@ -26,7 +26,6 @@
 ## 🔧 Instalación
 
 1. **Clona el repositorio**  
-   ```bash
    git clone https://github.com/rickyma18/ChatTDP.git
    cd ChatTDP
    
