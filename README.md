@@ -55,18 +55,20 @@ Pulsa Enviar.
 
 Copia la descripción generada por OpenAI y pégala en tu informe arbitral.
 
-📂 Estructura de Carpetas
-  lib/
-  ├── model/
-  ├── services/
-  │   └── openai_service.dart
-  ├── view/
-  │   └── chat_page.dart
-  ├── viewmodel/
-  │   └── chat_viewmodel.dart
-  ├── firebase_options.dart
-  └── main.dart
-  └── theme.dart
+  ## 📂 Estructura de Carpetas
+  ```sql
+    lib/
+    ├── common/
+    ├── services/
+    │   └── openai_service.dart
+    ├── view/
+    │   └── chat_page.dart
+    ├── viewmodel/
+    │   └── chat_viewmodel.dart
+    ├── firebase_options.dart
+    └── main.dart
+    └── theme.dart
+```
   
 🤝 Contribuciones
 ¡Bienvenidas! Si encuentras errores o quieres añadir mejoras:
