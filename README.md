@@ -55,21 +55,23 @@ Pulsa Enviar.
 
 Copia la descripción generada por OpenAI y pégala en tu informe arbitral.
 
-🗂️ Estructura de carpetas
-lib/
-├── model/                # Entidades y modelos de datos
-├── services/             # Comunicación con OpenAI y API clients
-│   └── openai_service.dart
-├── view/                 # Widgets y pantallas
-│   └── chat_page.dart
-├── viewmodel/            # Lógica de estado (ChangeNotifier / Provider / Riverpod)
-│   └── chat_viewmodel.dart
-├── firebase_options.dart # Configuración Firebase (opcional)
-├── main.dart             # Punto de entrada
-└── theme.dart            # Temas y paleta de colores
+📂 Estructura de Carpetas
+  lib/
+  ├── model/
+  ├── services/
+  │   └── openai_service.dart
+  ├── view/
+  │   └── chat_page.dart
+  ├── viewmodel/
+  │   └── chat_viewmodel.dart
+  ├── firebase_options.dart
+  └── main.dart
+  └── theme.dart
+  
 🤝 Contribuciones
 ¡Bienvenidas! Si encuentras errores o quieres añadir mejoras:
 
+  
 Haz un fork del proyecto.
 
 Crea una rama feature/descripcion-cambios.
