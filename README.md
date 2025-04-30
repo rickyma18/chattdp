@@ -73,7 +73,7 @@ lib/
 │   └── chat_viewmodel.dart
 ├── firebase_options.dart# Configuración Firebase (opcional)
 ├── main.dart            # Punto de entrada
-└── theme.dart           # Temas y paleta de colores.
+└── theme.dart           # Temas y paleta de colores
 
 🤝 Contribuciones
 ¡Bienvenidas! Si encuentras errores o quieres añadir mejoras:
