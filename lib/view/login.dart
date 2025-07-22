@@ -1,3 +1,4 @@
+import 'package:chatgpt/view/guest_view.dart';
 import 'package:chatgpt/view/register.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
@@ -468,6 +469,33 @@ class _LoginPageState extends State<LoginPage> {
                 child: const Center(
                   child: Text(
                     "Crear cuenta",
+                    style: TextStyle(
+                      fontFamily: 'Nud',  // Especifica la fuente Nud aquí
+                      fontWeight: FontWeight.bold,
+                      color: kWhiteColor,
+                    ),
+                  ),
+                ),
+
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  print("Navegando como invitado.");
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => const ChatScreenGuest()),
+                  );
+                },
+                style: ElevatedButton.styleFrom(
+                  elevation: 0,
+                  padding: const EdgeInsets.all(18),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  backgroundColor: kBg500Color,
+                ),
+                child: const Center(
+                  child: Text(
+                    "Ingresar como invitado",
                     style: TextStyle(
                       fontFamily: 'Nud',  // Especifica la fuente Nud aquí
                       fontWeight: FontWeight.bold,
